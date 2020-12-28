@@ -92,7 +92,7 @@ Scroll to left until first character in X position (until left character)
 ```
 Scroll to left until last character (until right character)
 > You can use this function for continues scroll text (put on loop)
-```
+```C
 	scrollText_LR(String string, int x, int y, int w, int s); //text,X,Y,width,speed (height auto from font height)
 ```
 
