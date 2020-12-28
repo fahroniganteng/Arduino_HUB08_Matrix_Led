@@ -30,7 +30,7 @@ Example wiring on Arduino Mini board.
 
 ## Usage
 ### Required libraries
-~~~
+~~~C
 	#include <avr/pgmspace.h>
 	#include <SPI.h>
 	#include "HUB08SPI.h"
