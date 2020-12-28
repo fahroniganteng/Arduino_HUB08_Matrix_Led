@@ -55,7 +55,7 @@ Buffer buff(displaybuf,64,16);
 First, you need create a font.  
 Several fonts have been created, but you can also create your own. Check **Font Builder.xlsm** in the ***Tool*** folder.
 > Fonts created based on the MD_MAX72xx library (only fonts, not include MD_MAX72xx libraries).  
-> Original tool can be found at https://github.com/MajicDesigns/MD_MAX72XX
+> Original tool can be found at https://github.com/MajicDesigns/MD_MAX72XX/tree/main/Font%20Builder/Excel
 
 Default variable name for call the class is ***ronn***. So you can call a function like :
 ```C
