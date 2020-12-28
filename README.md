@@ -73,7 +73,7 @@ setFont(fontType_t *f=font_DEFAULT); //*f = variable font name
 printText(String string, int x, int y);   			// text,X,Y
 printText_R(String string, int x, int y, int s);  	// text,X,Y,speed --> print right with delay animation
 printText_RC(String string, int x, int y, int s);  	// text,X,Y,speed --> print right with delay and cursor animation
-printText_L(String string, int x, int y, int s);  	// text,X,Y,speed --> print left with delay animation (x = pixel in right position / end text)
+printText_L(String string, int x, int y, int s);  	// text,X,Y,speed --> print left with delay animation
 printText_LC(String string, int x, int y, int s);  	// text,X,Y,speed --> print left with delay and cursor animation 
 scanText_L(String string, int x, int y, int s);  	// text,X,Y,speed --> scan left animation
 scanText_R(String string, int x, int y, int s);  	// text,X,Y,speed --> scan right animation
