@@ -123,7 +123,7 @@ Move down 6 pixel --> parking 500ms --> move left 20 pixel --> move up 2 pixel -
 
 
 #### 5. Clear animation
-Clear spesific location
+Clear spesific area
 ```C
 clear_L(int x, int y, int w, int h, int m);  //X,Y,width,height,mode(SCROLL,CLEAR) --> clear left
 clear_R(int x, int y, int w, int h, int m);  //X,Y,width,height,mode(SCROLL,CLEAR) --> clear right
@@ -156,7 +156,7 @@ clear_A2(); // all pixel --> blink out
 #### 6. Bitmap
 Yup, apart from fonts, you can also create images from bitmaps.  
 Bitmap function actually from BufferGraphics libraries, check into original library for details, or you can check from the sample sketch.  
-You can download tool for creating bitmaps ***(Monochrome Bitmap to Code Coverter.exe)*** from original repository https://github.com/emgoz/BufferGraphics/tree/master/Tools.
+You can also download tool for creating bitmaps ***Monochrome Bitmap to Code Coverter.exe*** from original repository https://github.com/emgoz/BufferGraphics/tree/master/Tools.
 
 ## License and credits
 Ronn Animation under MIT license.  
