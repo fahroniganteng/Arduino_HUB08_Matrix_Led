@@ -164,7 +164,7 @@ Other libraries follow their own license.
 - HUB08SPI.h under MIT License (https://github.com/emgoz/HUB08SPI)
 - BufferGraphics under MIT License (https://github.com/emgoz/BufferGraphics)
 - TimerOne (https://github.com/PaulStoffregen/TimerOne)
-- Part of font (https://github.com/MajicDesigns/MD_MAX72XX)
+- Part of font under LGPL-2.1 License (https://github.com/MajicDesigns/MD_MAX72XX)
 
 
 
