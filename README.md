@@ -156,7 +156,7 @@ clear_A2(); // all pixel --> blink out
 #### 6. Bitmap
 Yup, apart from fonts, you can also create images from bitmaps.  
 Bitmap function actually from BufferGraphics libraries, check into original library for details, or you can check from the sample sketch.  
-Tool for creating bitmaps can be found in ***Tool*** folder (Monochrome Bitmap to Code Coverter.exe), or you can download from original repository (https://github.com/emgoz/BufferGraphics)
+You can download tool for creating bitmaps ***(Monochrome Bitmap to Code Coverter.exe)*** from original repository https://github.com/emgoz/BufferGraphics/tree/master/Tools.
 
 ## License and credits
 Ronn Animation under MIT license.  
