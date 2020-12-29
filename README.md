@@ -3,11 +3,11 @@ This is arduino library for creating animation on matrix led.
 > NOTE : only supports single color matrix led and HUB08 connector.
 
 ## Components
-- **MATRIX LED** with connector **HUB08**. 
+- **MATRIX LED** single color with connector **HUB08** (P7.62, P4.75, etc). 
 - **ARDUINO**, tested on ATMEGA328 (Arduino NANO, UNO and PRO MINI 5V version).
 
 ## Demo
-Will be uploaded soon....
+[![DEMO](http://img.youtube.com/vi/jYppBStfILE/0.jpg)](https://youtu.be/jYppBStfILE)
 
 ## How to install
 Just download, open with arduino IDE and upload into arduino board (all libraries included).
