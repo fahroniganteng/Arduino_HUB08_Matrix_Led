@@ -2,7 +2,7 @@
 This is arduino library for creating animation on matrix led.  
 > NOTE : only supports single color matrix led and HUB08 connector.
 
-## Part
+## Components
 - **MATRIX LED** with connector **HUB08**. 
 - **ARDUINO**, tested on ATMEGA328 (Arduino NANO, UNO and PRO MINI 5V version).
 
@@ -44,7 +44,7 @@ HUB08SPI display;
 uint8_t displaybuf[WIDTH * HEIGHT / 8];
 Buffer buff(displaybuf,64,16);
 
-//make sure to put after create buffer, because its just function to call library HUB08SPI & BUFFER
+//make sure to put after create buffer
 #include "ronnAnimation.h" 
 ~~~
 > All libraries included, you don't need to install manually.
