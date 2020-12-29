@@ -36,7 +36,7 @@ HUB08SPI display;
 uint8_t displaybuf[WIDTH * HEIGHT / 8];
 Buffer buff(displaybuf,64,16);
 
-//make sure to put after create buffer, because its just function to call library HUB08SPI & BUFFER
+//make sure to put after create buffer
 #include "ronnAnimation.h" 
 
 void refresh() {
