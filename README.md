@@ -10,7 +10,9 @@ This is arduino library for creating animation on matrix led.
 [![DEMO](http://img.youtube.com/vi/jYppBStfILE/0.jpg)](https://youtu.be/jYppBStfILE)
 
 ## How to install
-Just download, open with arduino IDE and upload into arduino board (all libraries included).
+Just download, open with arduino IDE and upload into arduino board (all libraries included).  
+[![TUTORIAL](http://img.youtube.com/vi/RXkWcjTcCjA/0.jpg)](https://youtu.be/RXkWcjTcCjA)
+>Video tutorial in indonesia language.
 
 ## Wiring
 HUB08 (matrix led) to ARDUINO pin connection
