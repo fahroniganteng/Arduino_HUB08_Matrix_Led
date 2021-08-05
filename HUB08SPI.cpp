@@ -10,10 +10,10 @@ void HUB08SPI::begin(uint8_t *displaybuf, uint16_t width, uint16_t height)
     this->displaybuf = displaybuf;
     this->width = width;
     this->height = height;
-    DDRD |= 0xFC;
+    DDRD |= 0xFC; // BIN = 0b11111100 ==> SET PIN 7,6,5,4,3,2 = OUTPUT ==> pin 1,0 = not change
     TCCR2B = TCCR2B & 0b11111000 | 0x01;  //32khz pwm on pin 3 & 11
     SPI.begin();
-    analogWrite(3,128);
+    analogWrite(3,128); // default brightness
 }
 
 void HUB08SPI::drawPoint(uint16_t x, uint16_t y, uint8_t color)
