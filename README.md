@@ -172,6 +172,8 @@ Other libraries follow their own license.
 - TimerOne (https://github.com/PaulStoffregen/TimerOne)
 - Part of font under LGPL-2.1 License (https://github.com/MajicDesigns/MD_MAX72XX)
 
-
-
+## Donation  
+Support me  
+- [Send me coffee](https://sociabuzz.com/fahroniganteng/tribe)
+- [or maybe ice cream](https://trakteer.id/fahroniganteng/tip) 
 	
